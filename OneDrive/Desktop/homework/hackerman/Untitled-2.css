@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    background-color: #000000;
+    background-image: radial-gradient( ellipse farthest-corner at 10px 10px , #000dff, #000dff 50%, #000000 50%);
+    background-size: 10px 10px;
+    color: silver;
+
+
+
+}
+p{
+    font-family: sans-serif;
+    text-indent: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+img:hover{
+    transform: scale(1.2);
+    box-shadow: 10px 10px 10px;
+    
+}
+header{
+    font-size: 100px;
+}
+table{
+    margin-right: 200px;
+    margin-left: 750px;
+}
+div{
+    border: solid;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+img{
+    border-radius: 50% 50%;
+    transition: box-shadow 0.7s, transform 2s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+    
+}
+header:hover{
+    text-shadow: 10px 10px 5px rgba(133, 39, 39, 0.315);
+}

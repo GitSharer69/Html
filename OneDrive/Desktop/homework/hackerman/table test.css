@@ -1,0 +1,48 @@
+table{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 420px;
+    height: 300px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 20px;
+    box-shadow: -30px 30px 20px rgba(25, 228, 235, 0.5);
+    font-family: sans-serif;
+    font-size: small;
+    text-align: center;
+    padding: 7px;
+    
+}
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(11deg, rgb(0, 0, 0) 0%, rgba(1,150,96,1) 55%, rgba(0,212,255,1) 100%);
+
+}
+.parallelogram {
+  
+	width: 100px;
+	height: 1000px;
+	background: rgba(44, 189, 44, 0.253);
+    box-shadow: 50px 50px 20px;
+    left: 20%;
+    border-radius: 10px;
+    
+}
+th{
+    background-color: aqua;
+    padding: 5px;
+}
+.even{
+    background-color: rgba(46, 219, 69, 0.452); 
+}
+td{
+    padding: 5px;
+    font-size: x-small;
+}
+tbody>tr:hover{ 
+    background-color: rgba(255, 255, 255, 0.342);
+    color: white;
+
+} 

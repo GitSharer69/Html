@@ -1,0 +1,17 @@
+#demo {
+    width: 1000px;
+    height: 100px;
+    -webkit-box-shadow: 100px 1000px 200px -7px #ebef0b, 17px 13px 17px 5px rgba(245, 253, 0, 0); 
+    box-shadow: 0px 10px 13px -7px #000000, 18px 13px 17px 5px rgba(0,0,0,0);
+    font-size: 100px;
+    background-color: #ebef0b;
+    }
+body{
+    margin: 0;
+}
+.red{
+    padding-left: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-right: 200px;
+}
